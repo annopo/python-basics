@@ -38,3 +38,4 @@ count = int(input('何セット買いますか？(3つ以上で1割引): '))
 result = selected_food.get_total_price(count) + selected_drink.get_total_price(count)
 
 print('合計は' + str(result) + '円です')
+    
